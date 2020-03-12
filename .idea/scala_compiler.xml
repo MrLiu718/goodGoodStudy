@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="spark">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\javawork\dayDayUp\spark\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="flink,flink_house,flink_study" />
+  </component>
+</project>
