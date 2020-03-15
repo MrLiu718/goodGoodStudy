@@ -14,6 +14,7 @@
         <module>kafka</module>
         <module>flink</module>
         <module>arithmetic</module>
+        <module>Hbase</module>
     </modules>
 
 
