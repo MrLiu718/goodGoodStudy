@@ -1,5 +1,8 @@
 package com.lhh.arithmetic;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @version 0.0.1
  * @description
@@ -24,6 +27,7 @@ public class FastRank {
         for (int i : arry) {
             System.out.println(i);
         }
+        Map<String, Object> stringObjectHashMap = new HashMap<String, Object>();
     }
 
     private static void fastRank(int[] arry ,int low, int high) {

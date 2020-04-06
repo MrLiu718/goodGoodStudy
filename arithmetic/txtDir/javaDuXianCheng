@@ -1,0 +1,114 @@
+---------------------------------
+synchronized：
+https://blog.csdn.net/zjy15203167987/article/details/82531772
+----------------------------------
+
+Synchronized是Java中解决并发问题的一种最常用最简单的方法
+
+
+由例子可知，两个线程实例化两个不同的对象，但是访问的方法是静态的，两个线程发生了互斥（即一个线程访问，另一个线程只能等着），因为静态方法是依附于类而不是对象的，当synchronized修饰静态方法时，锁是class对象。
+因为两个线程作用于不同的对象，获得的是不同的锁，所以互相并不影响
+：将synchronized作用于一个给定的实例对象instance，即当前实例对象就是锁对象，每次当线程进入synchronized包裹的代码块时就会要求当前线程持有instance实例对象锁，如果当前有其他线程正持有该对象锁，那么新到的线程就必须等待，这样也就保证了每次只有一个线程执行i++;操作。当然除了instance作为对象外，我们还可以使用this对象(代表当前实例)或者当前类的class对象作为锁
+
+
+1.修饰静态方法
+
+      synchronized修饰静态方法的时候，锁的是当前类的class对象锁,看如下代码
+
+2.修饰非静态的方法
+
+       synchronized修饰非静态方法的时候，锁的是当对象的实例,看如下代码
+
+3.修饰代码块
+
+       这个就是提升锁的效率，没必要每次对方法进行同步操作
+
+4、如何选择Lock和synchronized关键字
+a.如果可以的话，尽量都不适用，可以用util.concurrent包中的各种各样的类，不容易出错。
+
+b.如果synchronized适用当前程序，则优先选择，因为可以减少代码量，减少出错。
+
+c.如果需要lock或者condition这样结构，则采取lock
+
+abc三点核心思想就是避免出错。
+
+ synchronized作用于代码块 进行反编译 发现多了 两个指令monitorenter、monitorexit  即JVM使用monitorenter和monitorexit两个指令实现同步
+ synchronized作用于方法 进行反编译 发现多了ACC_SYNCHRONIZED（acc_synchronized） 即JVM通过在方法访问标识符(flags)中加入ACC_SYNCHRONIZED来实现同步功能。
+ 这些指令都需要获取 monitor锁 同步方法和同步代码块底层都是通过monitor来实现同步的每个对象都与一个monitor相关联，线程可以占有或者释放monitor
+
+ synchronized 同步语句块的实现使用的是 monitorenter 和 monitorexit 指令，其中 monitorenter 指令指向同步代码块的开始位置，monitorexit 指令则指明同步代码块的结束位置。 当执行 monitorenter 指令时，线程试图获取锁也就是获取 monitor(monitor对象存在于每个Java对象的对象头中，synchronized 锁便是通过这种方式获取锁的，也是为什么Java中任意对象可以作为锁的原因) 的持有权.当计数器为0则可以成功获取，获取后将锁计数器设为1也就是加1。相应的在执行 monitorexit 指令后，将锁计数器设为0，表明锁被释放。如果获取对象锁失败，那当前线程就要阻塞等待，直到锁被另外一个线程释放为止。
+
+ synchronized关键字和volatile关键字比较
+
+volatile关键字是线程同步的轻量级实现，所以volatile性能肯定比synchronized关键字要好。但是volatile关键字只能用于变量而synchronized关键字可以修饰方法以及代码块。synchronized关键字在JavaSE1.6之后进行了主要包括为了减少获得锁和释放锁带来的性能消耗而引入的偏向锁和轻量级锁以及其它各种优化之后执行效率有了显著提升，实际开发中使用 synchronized 关键字的场景还是更多一些。
+多线程访问volatile关键字不会发生阻塞，而synchronized关键字可能会发生阻塞
+volatile关键字能保证数据的可见性，但不能保证数据的原子性。synchronized关键字两者都能保证。
+volatile关键字主要用于解决变量在多个线程之间的可见性，而 synchronized关键字解决的是多个线程之间访问资源的同步性。
+
+----------------------------------
+HashTable,HashMap,ConcurrentHashMap
+----------------------------------
+
+HashTable
+
+底层数组+链表实现，无论key还是value都不能为null，线程安全，实现线程安全的方式是在修改数据时锁住整个HashTable，效率低，
+ConcurrentHashMap做了相关优化
+初始size为11，扩容：newsize = olesize*2+1
+计算index的方法：index = (hash & 0x7FFFFFFF) % tab.length
+
+HashMap
+
+底层数组+链表实现，可以存储null键和null值，线程不安全
+初始size为16，扩容：newsize = oldsize*2，size一定为2的n次幂
+扩容针对整个Map，每次扩容时，原来数组中的元素依次重新计算存放位置，并重新插入
+插入元素后才判断该不该扩容，有可能无效扩容（插入后如果扩容，如果没有再次插入，就会产生无效扩容）
+当Map中元素总数超过Entry数组的75%，触发扩容操作，为了减少链表长度，元素分配更均匀
+计算index方法：index = hash & (tab.length – 1)
+
+哈希冲突：若干Key的哈希值按数组大小取模后，如果落在同一个数组下标上，将组成一条Entry链，对Key的查找需要遍历Entry链上
+的每个元素执行equals()比较。
+
+为了降低哈希冲突的概率，默认当HashMap中的键值对达到数组大小的75%时，即会触发扩容。因此，如果预估容量是100，
+即需要设定100/0.75＝134的数组大小。
+
+“负载极限”的默认值（0.75）是时间和空间成本上的一种折中：
+
+较高的“负载极限”可以降低hash表所占用的内存空间，但会增加查询数据的时间开销，
+而查询是最频繁的操作（HashMap的get()与put()方法都要用到查询）
+
+较低的“负载极限”会提高查询数据的性能，但会增加hash表所占用的内存开销
+
+HashMap使用链表来解决碰撞问题，当发生碰撞时，对象将会储存在链表的下一个节点中。
+HashMap在每个链表节点中储存键值对对象。当两个不同的键对象的hashcode相同时，
+它们会储存在同一个bucket位置的链表中，可通过键对象的equals()方法来找到键值对。
+如果链表大小超过阈值（TREEIFY_THRESHOLD,8），链表就会被改造为树形结构。
+
+在HashMap中，null可以作为键，这样的键只有一个，但可以有一个或多个键所对应的值为null。
+当get()方法返回null值时，即可以表示HashMap中没有该key，也可以表示该key所对应的value为null。
+因此，在HashMap中不能由get()方法来判断HashMap中是否存在某个key，应该用containsKey()方法来判断。
+而在Hashtable中，无论是key还是value都不能为null。
+
+ConcurrentHashMap：
+底层采用分段的数组+链表实现，线程安全
+通过把整个Map分为N个Segment，可以提供相同的线程安全，但是效率提升N倍，默认提升16倍。
+(读操作不加锁，由于HashEntry的value变量是 volatile的，也能保证读取到最新的值。)
+Hashtable的synchronized是针对整张Hash表的，即每次锁住整张表让线程独占，ConcurrentHashMap允许多个修改操作并发进行，
+其关键在于使用了锁分离技术
+有些方法需要跨段，比如size()和containsValue()，它们可能需要锁定整个表而而不仅仅是某个段，这需要按顺序锁定所有段，
+操作完毕后，又按顺序释放所有段的锁
+扩容：段内扩容（段内元素超过该段对应Entry数组长度的75%触发扩容，不会对整个Map进行扩容），插入前检测需不需要扩容，
+有效避免无效扩容
+
+ConcurrentHashMap提供了与Hashtable和SynchronizedMap不同的锁机制。Hashtable中采用的锁机制是一次锁住整个hash表，
+从而在同一时刻只能由一个线程对其进行操作；而ConcurrentHashMap中则是一次锁住一个桶。
+
+ConcurrentHashMap默认将hash表分为16个桶，诸如get、put、remove等常用操作只锁住当前需要用到的桶。
+这样，原来只能一个线程进入，现在却能同时有16个写线程执行，并发性能的提升是显而易见的。
+
+
+
+
+
+
+
+

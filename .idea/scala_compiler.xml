@@ -7,6 +7,6 @@
         <parameter value="E:\javawork\dayDayUp\spark\target/.scala_dependencies" />
       </parameters>
     </profile>
-    <profile name="Maven 2" modules="flink,flink_house,flink_study" />
+    <profile name="Maven 2" modules="flink,flink19,flink_house,flink_study" />
   </component>
 </project>

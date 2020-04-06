@@ -15,6 +15,8 @@
         <module>flink</module>
         <module>arithmetic</module>
         <module>Hbase</module>
+        <module>flink1.9</module>
+        <module>ES</module>
     </modules>
 
 

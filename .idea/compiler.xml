@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink_study" />
+        <module name="flink19" />
+        <module name="ES" />
         <module name="arithmetic" />
         <module name="kafka" />
         <module name="Hbase" />
