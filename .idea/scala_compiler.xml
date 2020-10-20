@@ -4,9 +4,21 @@
     <profile name="Maven 1" modules="spark">
       <parameters>
         <parameter value="-dependencyfile" />
-        <parameter value="E:\javawork\dayDayUp\spark\target/.scala_dependencies" />
+        <parameter value="D:\practise-code\goodGoodStudy\spark\target/.scala_dependencies" />
       </parameters>
     </profile>
-    <profile name="Maven 2" modules="flink,flink19,flink_house,flink_study" />
+    <profile name="Maven 2" modules="flink1.9,flink_house,flink_study" />
+    <profile name="Maven 3" modules="sparkStreaming10">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\practise-code\goodGoodStudy\sparkStreaming10\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 4" modules="sparkStreaming08">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="D:\practise-code\goodGoodStudy\sparkStreaming08\target/.scala_dependencies" />
+      </parameters>
+    </profile>
   </component>
 </project>

@@ -11,6 +11,7 @@ import org.apache.spark.streaming._
   */
 object MapWithStateAPITest {
   def main(args: Array[String]): Unit = {
+    Logger
     val conf = new SparkConf().setMaster("local[2]").setAppName("mapWithStateAPITest")
     val ssc = new StreamingContext(new SparkContext(conf),Seconds(5))
 

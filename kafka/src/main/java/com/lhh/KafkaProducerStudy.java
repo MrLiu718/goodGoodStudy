@@ -13,6 +13,7 @@ import java.util.Properties;
  */
 public class KafkaProducerStudy {
     public static void main(String[] args) {
+
         //准备配置属性
         Properties properties = new Properties();
         //kafka集群地址
@@ -33,7 +34,7 @@ public class KafkaProducerStudy {
 
         properties.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         properties.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
-
+ 
         KafkaProducer<String, String> kafkaProducer = new KafkaProducer<String, String>(properties);
 
         for (int i =0; i <100; i++){

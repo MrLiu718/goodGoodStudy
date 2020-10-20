@@ -2,6 +2,7 @@ package com.lhh.sparkCore
 
 import java.sql.{Connection, DriverManager}
 
+import org.apache.log4j.Logger
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -12,7 +13,7 @@ import org.apache.spark.{SparkConf, SparkContext}
   */
 object DataToMysql {
   def main(args: Array[String]): Unit = {
-
+    Logger
     //每个线程并行计算 插入的顺序不同
     val sparkConf = new SparkConf().setAppName("ForeachInMysql").setMaster("local[2]")
 

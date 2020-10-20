@@ -2,7 +2,7 @@ package com.lhh.sparkStreaming.kafka.offect08
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming._
-import _root_.kafka.serializer.StringDecoder
+//import _root_.kafka.serializer.StringDecoder
 
 /**
   * @description
@@ -37,31 +37,31 @@ object WordCount {
       * 监听器的作用就是，我们每次运行完一个批次，就帮我们提交一次偏移量。
       */
 
-    ssc.addStreamingListener(new KaikebaListener(kafkaParams))
-
-    //关键步骤二： 创建对象，然后通过这个对象获取到上次的偏移量，然后获取到数据流
-    val km = new KafkaManager(kafkaParams)
-
-    /**
-      * 创建一个程序入口
-      */
-    val messages = km.createDirectStream[String, String, StringDecoder, StringDecoder](
-                    ssc, kafkaParams,topicsSet)
-
-    //完成你的业务逻辑即可
-    messages  //只要对messages这个对象做一下操作，里面对偏移量信息就会丢失了
-      .map(_._2)
-      .flatMap(_.split(","))
-      .map((_,1))
-      .foreachRDD( rdd =>{
-        rdd.foreach( line =>{
-          println(line)
-          println("-==============进行业务处理就可以了=====================batch=========")
-          //这儿是没有办法获取到偏移量信息的。
-
-        })
-        println("在这儿提交偏移量")
-      })
+//    ssc.addStreamingListener(new KaikebaListener(kafkaParams))
+//
+//    //关键步骤二： 创建对象，然后通过这个对象获取到上次的偏移量，然后获取到数据流
+//    val km = new KafkaManager(kafkaParams)
+//
+//    /**
+//      * 创建一个程序入口
+//      */
+//    val messages = km.createDirectStream[String, String, StringDecoder, StringDecoder](
+//                    ssc, kafkaParams,topicsSet)
+//
+//    //完成你的业务逻辑即可
+//    messages  //只要对messages这个对象做一下操作，里面对偏移量信息就会丢失了
+//      .map(_._2)
+//      .flatMap(_.split(","))
+//      .map((_,1))
+//      .foreachRDD( rdd =>{
+//        rdd.foreach( line =>{
+//          println(line)
+//          println("-==============进行业务处理就可以了=====================batch=========")
+//          //这儿是没有办法获取到偏移量信息的。
+//
+//        })
+//        println("在这儿提交偏移量")
+//      })
   }
 
 
