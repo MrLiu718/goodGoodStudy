@@ -20,5 +20,10 @@
         <parameter value="D:\practise-code\goodGoodStudy\sparkStreaming08\target/.scala_dependencies" />
       </parameters>
     </profile>
+    <profile name="Maven 5" modules="trate">
+      <parameters>
+        <parameter value="-target:jvm-1.5" />
+      </parameters>
+    </profile>
   </component>
 </project>

@@ -2,6 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a116d694-dda1-4197-b1b9-729bdc61905d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DbTest/DbTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DbTest/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DbTest/src/main/java/cn/HubbletpJdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DbTest/src/main/java/cn/LogCreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DbTest/src/main/java/cn/hubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DbTest/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink1.9/src/main/java/com/lhh/bean/Metric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink1.9/src/main/java/com/lhh/util/KafkaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/DataStreamCode.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/WatermarkCode.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/WindowCode.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/kafkaSourceOfFlink.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/util/MyPartitioner.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/util/redisUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/src/main/java/com.lhh/Lc1207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming08/src/main/scala/driect/KafkaDirec08.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming08/src/main/scala/offsetInZK/Kafkazookeeper.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming08/src/main/scala/offsetInZK/othersUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/bean/GoodsCountBean.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/KafkaDirect010.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/KafkaHbaseCheckPoint.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/Constants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/DateUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/HbaseUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/OffsetUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/bean/UserStkAsset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/exe/JavaExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/exe/ParsingMessageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/exe/ProcessingMessageException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/exe/RedisConnectionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/utils/GsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/utils/PropertiesReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/resources/aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/resources/classes.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/resources/fields.src" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/resources/table.schema" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/resources/table_conns.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/coretrn/Deletable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/coretrn/Updatable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/BusinessHandlers.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/DataOpType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/IncrementalRecord.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/RecordPreprocessor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/Table2Class.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/streaming/AccountAnalysisMain.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/streaming/ObjectMain.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/ConfigManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/Constants.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/DataTypeConvertors.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/KafkaMessageProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/OffsetManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/PropertiesUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/RedisUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/SerializeUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/SetupJdbc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/UserStkAssetCDCHandler.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flink1.9/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink1.9/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkStreaming10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sparkStreaming10/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/DirectKafkaWordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/DirectKafkaWordCount.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,6 +89,8 @@
     <ignored path="$PROJECT_DIR$/sparkStreaming0.8/target/" />
     <ignored path="$PROJECT_DIR$/sparkStreaming10/target/" />
     <ignored path="$PROJECT_DIR$/sparkStreaming08/target/" />
+    <ignored path="$PROJECT_DIR$/DbTest/target/" />
+    <ignored path="$PROJECT_DIR$/trate/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +117,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/DirectKafkaWordCount.scala">
+        <entry file="file://$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/kafkaSourceOfFlink.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="202">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding>
-                <element signature="e#16#55#0" expanded="true" />
+                <element signature="e#22#49#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-0.11_2.11/1.9.2/flink-connector-kafka-0.11_2.11-1.9.2.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer011.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink1.9/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="94" column="34" selection-start-line="93" selection-start-column="57" selection-end-line="94" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/KafkaJsonSource.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1074" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/HBaseSinkFunction.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-96">
+              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/GenerateOrderDatas.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/GenerateGoodsDatas.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/SyncBachData.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink/flink_study/src/main/scala/com/lhh/Streaming/demo07/FlinkKafkaSource.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-726">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flink/flink_study/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-940">
+              <caret line="104" column="21" selection-start-line="94" selection-start-column="8" selection-end-line="104" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -64,6 +210,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Package Object" />
+        <option value="Scala Object" />
         <option value="Class" />
       </list>
     </option>
@@ -76,7 +224,20 @@
       <find>execSql</find>
       <find>columns</find>
       <find>log4j</find>
+      <find>redis</find>
+      <find>ConnectionFactory</find>
+      <find>hbase</find>
+      <find />
+      <find>ainZk</find>
+      <find>getCell</find>
+      <find>net.jpountz.lz4</find>
+      <find>kafka.version</find>
+      <find>kafka</find>
+      <find>LZ</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,39 +245,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ES/src/main/java/lhh/util/ESutil.java" />
-        <option value="$PROJECT_DIR$/ES/src/main/java/lhh/bean/Test.java" />
-        <option value="$PROJECT_DIR$/flink/flink_LG/src/main/java/MyStreamingSource.java" />
-        <option value="$PROJECT_DIR$/flink/flink_LG/src/main/java/com/lg/base/MyStreamingSource.java" />
-        <option value="$PROJECT_DIR$/flink/flink_LG/src/main/java/com/lg/base/StreamingDemo.java" />
-        <option value="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/api/HotItem/HotItems.scala" />
-        <option value="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/api/HotItem/NetworkTraffic.scala" />
-        <option value="$PROJECT_DIR$/flink/flink_LG/src/main/java/com/lg/base/CacheFile.java" />
-        <option value="$PROJECT_DIR$/flink/flink_LG/src/main/cash/distributedcache.txt" />
-        <option value="$PROJECT_DIR$/flink1.9/src/main/java/com/lhh/api/PeriodicWatermark.java" />
-        <option value="$PROJECT_DIR$/flink1.9/src/main/java/com/lhh/api/ValueStateTest.java" />
-        <option value="$PROJECT_DIR$/flink/flink_LG/src/main/java/com/lg/base/addCom.java" />
-        <option value="$PROJECT_DIR$/flink/flink_LG/src/main/java/com/lg/base/CounterTest.java" />
-        <option value="$PROJECT_DIR$/flume/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/flume/pom.xml" />
-        <option value="$PROJECT_DIR$/flume/src/main/java/lhh/com/mysqlsouce/MySqlSource.java" />
-        <option value="$PROJECT_DIR$/leetcode/src/main/java/com.lhh/ceshi.java" />
-        <option value="$PROJECT_DIR$/flume/src/main/java/lhh/com/mysqlsouce/QueryMysql.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/test/Hbase.java" />
-        <option value="$PROJECT_DIR$/Hbase/src/main/java/util/HbaseUtil.java" />
-        <option value="$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkCore/WordCountJar.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/kafka/offect08/WordCount.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/ForeachOptions.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/MapWithStateAPITest.scala" />
-        <option value="$PROJECT_DIR$/kafka/src/main/java/com/lhh/KafkaProducerStudy.java" />
-        <option value="$PROJECT_DIR$/sparkStreaming0.8/pom.xml" />
-        <option value="$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkCore/DataToMysql.scala" />
-        <option value="$PROJECT_DIR$/sparkStreaming0.8/src/main/scala/driect/DirectKafkaWordCount.scala" />
+        <option value="$PROJECT_DIR$/DbTest/src/main/java/cn/HubbletpJdbcTest.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/PropertiesUtil.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/KafkaMessageProducer.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/exe/RedisConnectionException.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/RedisUtil.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/SerializeUtils.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/Constants.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/exe/JavaExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/utils/PropertiesReader.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/bean/UserStkAsset.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/OffsetManager.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/SetupJdbc.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/streaming/ObjectMain.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/IncrementalRecord.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/exe/ParsingMessageException.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/DataOpType.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/RecordPreprocessor.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/utils/GsonUtil.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/java/cn/jpzpers/exe/ProcessingMessageException.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/coretrn/Deletable.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/coretrn/Updatable.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/UserStkAssetCDCHandler.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/DataTypeConvertors.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/BusinessHandlers.scala" />
+        <option value="$PROJECT_DIR$/sparkStreaming08/src/main/scala/offsetInZK/Kafkazookeeper.scala" />
+        <option value="$PROJECT_DIR$/sparkStreaming08/src/main/scala/offsetInZK/othersUtil.scala" />
         <option value="$PROJECT_DIR$/sparkStreaming10/pom.xml" />
-        <option value="$PROJECT_DIR$/sparkStreaming08/pom.xml" />
-        <option value="$PROJECT_DIR$/sparkStreaming08/src/main/scala/driect/DirectKafkaWordCount.scala" />
-        <option value="$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/DirectKafkaWordCount.scala" />
+        <option value="$PROJECT_DIR$/DbTest/src/main/java/cn/LogCreate.java" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/pros/Table2Class.scala" />
+        <option value="$PROJECT_DIR$/DbTest/pom.xml" />
+        <option value="$PROJECT_DIR$/DbTest/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/sparkStreaming10/src/main/scala/bean/goodsCountBean.scala" />
+        <option value="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/OffsetUtil.scala" />
+        <option value="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/DateUtil.scala" />
+        <option value="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/HbaseUtil.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/ConfigManager.scala" />
+        <option value="$PROJECT_DIR$/trate/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/Constants.scala" />
+        <option value="$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/KafkaHbaseCheckPoint.scala" />
+        <option value="$PROJECT_DIR$/trate/pom.xml" />
+        <option value="$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/streaming/AccountAnalysisMain.scala" />
+        <option value="$PROJECT_DIR$/flink1.9/src/main/java/com/lhh/bean/Metric.java" />
+        <option value="$PROJECT_DIR$/flink1.9/src/main/java/com/lhh/util/KafkaUtils.java" />
+        <option value="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/util/redisUtils.scala" />
+        <option value="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/util/MyPartitioner.scala" />
+        <option value="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/DataStreamCode.scala" />
+        <option value="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/WindowCode.scala" />
+        <option value="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/WatermarkCode.scala" />
+        <option value="$PROJECT_DIR$/flink1.9/pom.xml" />
+        <option value="$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/kafkaSourceOfFlink.scala" />
       </list>
     </option>
   </component>
@@ -129,6 +308,25 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DbTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DbTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DbTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DbTest" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -136,15 +334,24 @@
           <item name="spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="trate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="trate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="8" />
-    <option name="y" value="17" />
-    <option name="width" value="1346" />
-    <option name="height" value="718" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -154,6 +361,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,25 +373,34 @@
             <path>
               <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkStreaming10" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkStreaming10" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_house" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkStreaming10" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkStreaming10" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
@@ -190,15 +408,326 @@
             <path>
               <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkStreaming10" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_house" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="driect" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+              <item name="Streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+              <item name="Streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="demo07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
+              <item name="flink_study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+              <item name="Streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="demo08" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="flink1.9" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="lhh" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="trate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="trate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="trate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="trate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="trate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="trate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="pzpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="goodGoodStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="trate" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="pzpers" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-connector-kafka-0.11_2.11:1.9.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-connector-kafka-0.11_2.11:1.9.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="flink-connector-kafka-0.11_2.11-1.9.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.flink:flink-connector-kafka-0.11_2.11:1.9.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="flink-connector-kafka-0.11_2.11-1.9.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="rdd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
@@ -218,33 +747,94 @@
               <item name="spark-streaming-kafka-0-10_2.11-2.3.3.jar" type="462c0819:PsiDirectoryNode" />
               <item name="spark" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-streaming-kafka-0-10_2.11:2.3.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-streaming-kafka-0-10_2.11-2.3.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka010" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-streaming_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-streaming_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-streaming_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-streaming_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dayDayUp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-streaming_2.11:2.2.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-streaming_2.11-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+              <item name="dstream" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="daydayup" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sparkStreaming08/src/main/scala" />
+    <property name="last_opened_file_path" value="D:/工作文档/online/AccountAnalysis2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\practise-code\goodGoodStudy\DbTest\src\main\resources" />
+      <recent name="D:\practise-code\goodGoodStudy\trate\src\main\scala\cn\pzpers\pros" />
+      <recent name="D:\practise-code\goodGoodStudy\trate\src\main\scala\cn\pzpers\utils" />
+      <recent name="D:\practise-code\goodGoodStudy\trate\src\main\resources" />
+      <recent name="D:\practise-code\goodGoodStudy\DbTest\src\main\java\cn" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.pzpers.coretrn" />
+      <recent name="cn.jpzpers.exe" />
+      <recent name="cn.jpzpers.utils" />
+      <recent name="cn.pzpers.pros" />
+      <recent name="cn.pzpers.utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\practise-code\goodGoodStudy\Hbase\src\main" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\practise-code\goodGoodStudy\sparkStreaming08\src\main\scala" />
-      <recent name="D:\practise-code\goodGoodStudy\sparkStreaming08\src\test" />
-      <recent name="D:\practise-code\goodGoodStudy\sparkStreaming10\src\main\scala" />
-      <recent name="D:\practise-code\goodGoodStudy\flink1.9\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,13 +849,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Hbase.createTable">
-    <configuration name="HbaseUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.HbaseUtil" />
-      <module name="Hbase" />
+  <component name="RunManager" selected="Application.kafkaSourceOfFlink">
+    <configuration name="AccountAnalysisMain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cn.pzpers.streaming.AccountAnalysisMain" />
+      <module name="trate" />
+      <option name="PROGRAM_PARAMETERS" value="kt-nfi-fundasset-sh-dsg1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.*" />
+          <option name="PATTERN" value="cn.pzpers.streaming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -273,12 +864,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeriodicWatermark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lhh.api.PeriodicWatermark" />
+    <configuration name="DataStreamCode" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lhh.code.DataStreamCode" />
       <module name="flink1.9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lhh.api.*" />
+          <option name="PATTERN" value="com.lhh.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -286,12 +877,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ceshi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lhh.ceshi" />
-      <module name="leetcode" />
+    <configuration name="KafkaHbaseCheckPoint" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="driect.KafkaHbaseCheckPoint" />
+      <module name="sparkStreaming10" />
+      <option name="PROGRAM_PARAMETERS" value="kt-nfi-fundasset-sh-dsg1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lhh.*" />
+          <option name="PATTERN" value="driect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,32 +891,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hbase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hbase" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Hbase" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="WatermarkCode" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lhh.code.WatermarkCode" />
+      <module name="flink1.9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhh.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hbase.createTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Hbase" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Hbase" />
-      <option name="METHOD_NAME" value="createTable" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="WindowCode" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lhh.code.WindowCode" />
+      <module name="flink1.9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhh.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kafkaSourceOfFlink" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lhh.code.kafkaSourceOfFlink" />
+      <module name="flink1.9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lhh.code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AccountAnalysisMain" />
+      <item itemvalue="Application.KafkaHbaseCheckPoint" />
+      <item itemvalue="Application.DataStreamCode" />
+      <item itemvalue="Application.WindowCode" />
+      <item itemvalue="Application.WatermarkCode" />
+      <item itemvalue="Application.kafkaSourceOfFlink" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Hbase.createTable" />
-        <item itemvalue="JUnit.Hbase" />
-        <item itemvalue="Application.HbaseUtil" />
-        <item itemvalue="Application.ceshi" />
-        <item itemvalue="Application.PeriodicWatermark" />
+        <item itemvalue="Application.kafkaSourceOfFlink" />
+        <item itemvalue="Application.WatermarkCode" />
+        <item itemvalue="Application.WindowCode" />
+        <item itemvalue="Application.DataStreamCode" />
+        <item itemvalue="Application.KafkaHbaseCheckPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +978,17 @@
       <workItem from="1602464629980" duration="2562000" />
       <workItem from="1602828328786" duration="6482000" />
       <workItem from="1603085162625" duration="5283000" />
-      <workItem from="1603157529918" duration="2718000" />
+      <workItem from="1603157529918" duration="16063000" />
+      <workItem from="1603865661649" duration="6484000" />
+      <workItem from="1603960398737" duration="766000" />
+      <workItem from="1604302252596" duration="3580000" />
+      <workItem from="1604645494555" duration="30997000" />
+      <workItem from="1605231322313" duration="2748000" />
+      <workItem from="1605692422883" duration="15744000" />
+      <workItem from="1606180020720" duration="49472000" />
+      <workItem from="1606698838726" duration="33746000" />
+      <workItem from="1607591269372" duration="596000" />
+      <workItem from="1607909854123" duration="40809000" />
     </task>
     <servers />
   </component>
@@ -395,13 +1025,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122595000" />
+    <option name="totallyTimeSpent" value="320882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2793177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,8 +1040,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3362256" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40347072" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -419,7 +1049,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.3362256" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -437,358 +1067,394 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/SerializeUtils.scala</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dayDayUp$AccountAnalysisMain.ic" NAME="AccountAnalysisMain Coverage Results" MODIFIED="1606974321386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cn.pzpers.streaming.*</FILTER>
+    </SUITE>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/flink_LG/src/main/java/com/lg/base/addCom.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flume/flume-ng-core/1.6.0-cdh5.14.2/flume-ng-core-1.6.0-cdh5.14.2.jar!/org/apache/flume/PollableSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/flink_LG/src/main/java/com/lg/base/CounterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/flink_LG/src/main/java/com/lg/base/MyStreamingSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/com.lhh/ceshi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/java/jdk/src.zip!/java/sql/Statement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/lhh/com/mysqlsouce/MySqlSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flume/src/main/java/lhh/com/mysqlsouce/QueryMysql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="183" column="36" selection-start-line="183" selection-start-column="36" selection-end-line="183" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/mr/test01/HBaseReadMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/mr/test01/HBaseReadReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/mr/test01/HBaseReadMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/mr/test03/HbaseBulkloadMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hadoop/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/java/util/HbaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkCore/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/kafka/offect08/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
-          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
-          <folding>
-            <element signature="e#47#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkCore/WordCountJar.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/src/main/test/Hbase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/WordBlack.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/windowsOptions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/ForeachOptions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dayDayUp.iml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/SparkContext.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/Checkpoint.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/scheduler/ResultTask.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/util/Utils.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/SparkEnv.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/storage/memory/MemoryStore.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/TaskContextImpl.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/OffsetUtil.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="148">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.2.0/hbase-common-1.2.0.jar!/org/apache/hadoop/hbase/TableName.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="283" selection-start-line="283" selection-end-line="283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.1/spark-core_2.11-2.2.1.jar!/org/apache/spark/scheduler/Task.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/HbaseUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="e#15#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/typesafe/config/1.2.1/config-1.2.1.jar!/com/typesafe/config/ConfigFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/streaming/ObjectMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparkStreaming0.8/sparkStreaming08.iml" />
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkCore/Data2Hbase.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.8.2.1/kafka-clients-0.8.2.1.jar!/org/apache/kafka/common/message/KafkaLZ4BlockInputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/MapWithStateAPITest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/kafka/offect08/KaikebaListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="3330">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
           <folding>
-            <element signature="e#0#5621#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/kafka/offect08/KafkaManager.scala">
+    <entry file="file://$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/KafkaHbaseCheckPoint.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="1710">
+          <caret line="73" column="3" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#16#32#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/dependency-reduced-pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-752">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="600">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hbase/pom.xml">
+    <entry file="file://$PROJECT_DIR$/trate/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="6510">
+          <caret line="217" column="34" selection-start-line="217" selection-start-column="34" selection-end-line="217" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkStreaming10/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="44" column="55" selection-start-line="44" selection-start-column="55" selection-end-line="44" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/streaming/AccountAnalysisMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2460">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+          <folding>
+            <element signature="e#29#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka_2.11/1.6.0/spark-streaming-kafka_2.11-1.6.0-sources.jar!/org/apache/spark/streaming/kafka/KafkaUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11520">
+          <caret line="421" column="6" selection-start-line="421" selection-start-column="6" selection-end-line="421" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkStreaming10/src/main/scala/utils/Constants.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/flink_LG/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="21" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink1.9/src/main/java/com/lhh/util/KafkaUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="81" selection-start-line="9" selection-start-column="81" selection-end-line="9" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trate/src/main/scala/cn/pzpers/utils/ConfigManager.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding>
+            <element signature="e#25#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.0/flink-streaming-scala_2.11-1.9.0.jar!/org/apache/flink/streaming/api/scala/DataStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="98" column="6" selection-start-line="98" selection-start-column="6" selection-end-line="98" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.0/flink-streaming-scala_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/scala/KeyedStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="415" column="18" selection-start-line="415" selection-start-column="10" selection-end-line="415" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink1.9/src/main/java/com/lhh/bean/Metric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0.jar!/org/apache/flink/api/common/functions/Partitioner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/api/common/functions/Partitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/util/redisUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#22#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/util/MyPartitioner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/DataStreamCode.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#22#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.0/flink-streaming-scala_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/scala/WindowedStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="554" column="37" selection-start-line="554" selection-start-column="16" selection-end-line="554" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.0/flink-streaming-scala_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/scala/function/ProcessWindowFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.0/flink-streaming-scala_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/scala/DataStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="243" column="54" selection-start-line="243" selection-start-column="45" selection-end-line="243" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/WatermarkCode.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
+          <folding>
+            <element signature="e#22#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-scala_2.11/1.9.0/flink-streaming-scala_2.11-1.9.0-sources.jar!/org/apache/flink/streaming/api/scala/StreamExecutionEnvironment.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="206" column="6" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trate/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/WindowCode.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#22#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-streaming-java_2.11/1.9.0/flink-streaming-java_2.11-1.9.0.jar!/org/apache/flink/streaming/api/environment/CheckpointConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="57" column="54" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-core/1.9.0/flink-core-1.9.0-sources.jar!/org/apache/flink/core/fs/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="446" selection-start-line="446" selection-end-line="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/GenerateOrderDatas.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/GenerateGoodsDatas.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/SyncBachData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/flink_study/src/main/scala/com/lhh/Streaming/demo07/FlinkKafkaSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-726">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flink1.9/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="35" />
+        <state relative-caret-position="290">
+          <caret line="94" column="34" selection-start-line="93" selection-start-column="57" selection-end-line="94" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/UpdateStateBykeyWordCount.scala">
+    <entry file="file://$PROJECT_DIR$/flink/flink_study/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="-940">
+          <caret line="104" column="21" selection-start-line="94" selection-start-column="8" selection-end-line="104" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka/src/main/java/com/lhh/KafkaProducerStudy.java">
+    <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/HBaseSinkFunction.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="-96">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/flink_house/src/main/scala/com/lhh/house/KafkaJsonSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-kafka-0.11_2.11/1.9.2/flink-connector-kafka-0.11_2.11-1.9.2.jar!/org/apache/flink/streaming/connectors/kafka/FlinkKafkaProducer011.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="77" column="13" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink1.9/src/main/scala/com/lhh/code/kafkaSourceOfFlink.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.3.3/spark-streaming-kafka-0-10_2.11-2.3.3.jar!/org/apache/spark/streaming/kafka010/KafkaUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkStreaming0.8/src/main/scala/driect/DirectKafkaWordCount.scala" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-10_2.11/2.3.3/spark-streaming-kafka-0-10_2.11-2.3.3.jar!/org/apache/spark/streaming/kafka010/LocationStrategies.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkStreaming/kafka/offset10/DirectKafka010Kafka.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="44" column="24" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="24" />
-          <folding>
-            <element signature="e#47#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkStreaming0.8/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/spark/src/main/scala/com/lhh/sparkCore/DataToMysql.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#27#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="63" selection-start-line="63" selection-end-line="67" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkStreaming08/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkStreaming08/src/main/scala/driect/DirectKafkaWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#16#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkStreaming10/sparkStreaming10.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkStreaming10/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="160" column="41" lean-forward="true" selection-start-line="160" selection-start-column="41" selection-end-line="160" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkStreaming10/src/main/scala/driect/DirectKafkaWordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding>
-            <element signature="e#16#55#0" expanded="true" />
+            <element signature="e#22#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -810,6 +1476,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -845,7 +1512,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sparkStreaming10</last-edited>
+          <last-edited>trate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

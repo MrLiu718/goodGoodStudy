@@ -21,6 +21,8 @@
         <module>sparkStreaming0.8</module>
         <module>sparkStreaming10</module>
         <module>sparkStreaming08</module>
+        <module>DbTest</module>
+        <module>trate</module>
     </modules>
 
 

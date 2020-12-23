@@ -6,19 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flink_study" />
-        <module name="flink_LG" />
-        <module name="sparkStreaming08" />
+        <module name="trate" />
         <module name="arithmetic" />
-        <module name="ES" />
-        <module name="kafka" />
-        <module name="Hbase" />
-        <module name="flume" />
-        <module name="flink_house" />
-        <module name="spark" />
-        <module name="leetcode" />
-        <module name="sparkStreaming10" />
         <module name="flink1.9" />
+        <module name="Hbase" />
+        <module name="ES" />
+        <module name="sparkStreaming08" />
+        <module name="spark" />
+        <module name="flink_study" />
+        <module name="flink_house" />
+        <module name="flume" />
+        <module name="kafka" />
+        <module name="sparkStreaming10" />
+        <module name="leetcode" />
+        <module name="flink_LG" />
+        <module name="DbTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

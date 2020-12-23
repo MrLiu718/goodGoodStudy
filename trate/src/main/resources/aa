@@ -1,0 +1,47 @@
+select
+    a.inst_sname ,a.inst_code,
+    b.end_date,b.est_date,b.inst_emp_code,b.last_net,
+    c.bqmc,
+    d.xsxt
+from
+    otcts.otc_inst_base_info a,
+    otcts.otc_inst_ext_info b,
+    pif.vm_pif_cpbqmx c,
+    pif.tpif_cpdm_gl_sdx d
+where
+    a.inst_sno=b.inst_sno
+    and a.inst_code=c.cpdm
+    and b.inst_emp_code=d.tagsdm
+
+
+先跑
+// pif.vm_pif_cpbqmx key : BASE_PIF_VM_PIF_CPBQMX + "," +  cpdm |  value : bqmc
+// pif.tpif_cpdm_gl_sdx key : BASE_PIF_TPIF_CPDM_GL_SDX + "," +  tagsdm | value : xsxt
+再跑
+select
+    a.inst_sname ,a.inst_code,a.inst_code
+    b.end_date,b.est_date,b.inst_emp_code,b.last_net,b.inst_emp_code
+from otcts.otc_inst_base_info a, otcts.otc_inst_ext_info b
+where
+    a.inst_sno=b.inst_sno
+
+spark SQL {
+    // a.inst_sname ,a.inst_code,a.inst_code
+    // b.end_date,b.est_date,b.inst_emp_code,b.last_net,b.inst_emp_code
+    // 转换成一个对象
+    {
+        a.inst_sname ,a.inst_code,b.end_date,b.est_date,b.inst_emp_code,b.last_net,b.inst_emp_code,c.bqmc,d.xsxt
+    }
+    // 1. 根据 inst_code 取 pif.vm_pif_cpbqmx 信息(bqmc),填充到上面的对象bqmc 字段中
+    // 2. 根据 inst_emp_code 取 pif.tpif_cpdm_gl_sdx 信息(xsxt), 填充到 上面对象的 xsxt 字段中
+}
+
+select pv.bqbm,pv.bqmc,pv.cpdm from pif.vm_pif_cpbqmx pv,otcts.otc_inst_base_info c
+where pv.cpdm=c.inst_code(当bqbm='ZSBQ_CPXZ_YGSM' as 阳光私募，'ZSBQ_CPXZ_SMGQ' as 私募股权,
+'ZSBQ_CPXZ_ZGJH' as 资管计划,
+'ZSBQ_CPXZ_SYPZ' as 收益凭证,
+'ZSBQ_CPXZ_XTJH' as  信托计划);产品销售市场（otc、集中交易系统、线下）：select a.xsxt,a.TAGSDM,b.inst_emp_code
+from pif.tpif_cpdm_gl_sdx a,otc_inst_ext_info b where b.inst_emp_code=a.tagsdm
+ (当xsxt=1，为otc；xsxt=2，为集中交易系统；xsxt=3，为线下)；
+
+
